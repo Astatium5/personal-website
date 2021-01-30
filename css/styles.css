@@ -2650,7 +2650,7 @@ fieldset:disabled a.btn {
 .btn-1 {
   flex: 1 1 auto;
   background-color: black;
-  padding: 20px 40px;
+  padding: 15px 40px;
   border: 2px solid;
   width: fit-content;
   text-align: center;
@@ -2672,8 +2672,9 @@ fieldset:disabled a.btn {
 }
 .btn-1:hover {
   cursor: pointer;
-  border-radius: 30px;
-  border: 2px solid;
+  border: 2px solid black;
+  background: white;
+  color: black;
 }
 .btn-1:hover:after {
   width: 100%;
