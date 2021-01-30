@@ -2660,6 +2660,9 @@ fieldset:disabled a.btn {
   position: absolute;
   overflow: hidden;
   transition: 0.7s;
+  appearance: button;
+  -webkit-appearance: button;
+  -moz-appearance: button;
 }
 .btn-1:after {
   position: absolute;
