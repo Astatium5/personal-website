@@ -2647,6 +2647,44 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
 
+.btn-1 {
+  flex: 1 1 auto;
+  background-color: black;
+  margin: 10px;
+  padding: 1.15rem;
+  border: 2px solid;
+  width: 13%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  transition: 0.7s;
+}
+.btn-1:after {
+  position: absolute;
+  transition: 0.5s;
+  content: '';
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 3px;
+}
+.btn-1:hover {
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid;
+}
+.btn-1:hover:after {
+  width: 100%;
+  left: 0;
+  color: black;
+}
+.btn-1:focus {
+  outline: none;
+}
+
 .btn-dark {
   color: #fff;
   background-color: #343a40;

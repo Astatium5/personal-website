@@ -33,6 +33,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
                 </ul>
             </div>
         </nav>
@@ -110,6 +111,9 @@
                                     <div class="flex-shrink-0"><span class="text-primary"></span>Orlando, FL</span></div>
                                 </div>
                         </div>
+                        <div class="resume-content d-flex justify-content-center pt-4">
+                            <button id="toggle_button" onclick="extraContent()" class="btn-1" style="text-align:center;">More</button> 
+                        </div>
                     </div>
 
                     <script>
@@ -125,11 +129,6 @@
                             }
                         }
                     </script>
-
-                    <div class="resume-content d-flex justify-content-center pt-4">
-                        <button id="toggle_button" onclick="extraContent()" class="btn btn-dark" style="text-align:center;">More</button> 
-                    </div>
-                    <br>
 
                     <div id="extra_experience" style="display: none" class="pt-5">
                     <div class="d-flex flex-column justify-content-between mb-5">
@@ -267,7 +266,7 @@
                             <div class="flex-grow-1">
                                 <h3 class="mb-0">CSV to PZFX File Converter</h3>
                                 <p>CSV to PZFX file converter developed for one of the UCF Biology labs. Written in Python using XML and CSV libraries.</p><br>
-                                <a class="social-icon" href="https://github.com/Astatium5/CSVtoPZFX" target="_blank" title="Link"><i class="fab fa-github" style="font-size: 2rem;"></i></a>
+                                <a class="social-icon" href="https://github.com/Astatium5/CSVtoPZFX" target="_blank" title="Link"><i class="fab fa-github" style="font-size: 3rem;"></i></a>
                             </div>
                             <div class="flex-shrink-0"><span class="text-primary"><b>Personal Project</b></span></div>
                         </div>
@@ -279,7 +278,7 @@
                                 <h3 class="mb-0">Skip List Set implementation in Java and C</h3>
                                 <p>A simple skip list implementation written in C. Supports add, delete, delete all (clear), and reBalance functions.</p>
                                 <p>Created for the Computer Science II class. The Java version is in a private repository.</p><br>
-                                <a class="social-icon" href="https://github.com/Astatium5/SkipList" target="_blank" title="Link"><i class="fab fa-github" style="font-size: 2rem;"></i></a>
+                                <a class="social-icon" href="https://github.com/Astatium5/SkipList" target="_blank" title="Link"><i class="fab fa-github" style="font-size: 3rem;"></i></a>
                             </div>
                             <div class="flex-shrink-0"><span class="text-primary"><b>Class Project</b></span></div>
                         </div>
@@ -320,11 +319,20 @@
                 </div>
             </section>
 
-
-            <div class="flex-shrink-0">need more?</div>
-            <form method="get" action="assets/resume.pdf">
-                <button class="btn-dark justify-content-center" type="sumbit" id="resume_button" target="_blank">resume</button>
-            </form>
+            <hr class="m-0" />
+            <!-- Resume  -->
+            <section class="resume-section" id="resume">
+                <div class="resume-section-content">
+                    <div class="d-flex justify-content-center pt-4">
+                        <div class="flex-shrink-1">
+                            <h2 class="mb-5">need more?</h2>
+                            <form method="get" action="assets/resume.pdf">
+                                <button class="btn-1" type="sumbit" id="resume_button" target="_blank">resume</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
