@@ -2652,7 +2652,6 @@ fieldset:disabled a.btn {
   background-color: black;
   padding: 15px 40px;
   border: 2px solid;
-  width: fit-content;
   text-align: center;
   text-transform: uppercase;
   font-size: 1rem;
